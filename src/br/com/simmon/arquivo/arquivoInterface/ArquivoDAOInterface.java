@@ -4,11 +4,11 @@ import java.util.HashMap;
 
 public interface ArquivoDAOInterface {
 
-    public abstract void createTable();
+    void createTable();
 
-    public abstract void dropTable();
+    void dropTable();
 
-    public abstract boolean inserir(HashMap hashmap);
+    boolean inserir(HashMap<String, String> var1);
 
-    public abstract boolean deletar();
+    boolean deletar();
 }
