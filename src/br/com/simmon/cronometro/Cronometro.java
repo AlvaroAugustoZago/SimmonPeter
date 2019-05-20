@@ -23,7 +23,7 @@ import java.util.ArrayList;
 
 
 public class Cronometro {
-    final long timeArquivo = calculaTime(15, false);
+    final long timeArquivo = calculaTime(0, false);
     final long timeUrl = calculaTime(24, true);
     private Timer timerArquivo = new Timer();
     private Timer timerUrl = new Timer();
